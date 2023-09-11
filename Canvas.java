@@ -9,9 +9,10 @@ import java.util.*;
  * the BlueJ "shapes" example. 
  *
  * @author: Bruce Quig
- * @author: Michael Kšlling (mik)
+ * @author: Michael KÃ¶lling (mik)
+ * @author: Ashlyn Balicki
  *
- * @version 2016.02.29
+ * @version 2023.09.10
  */
 public class Canvas
 {
@@ -136,6 +137,15 @@ public class Canvas
         }
         else if(colorString.equals("green")) {
             graphic.setColor(new Color(80, 160, 60));
+        }
+        else if(colorString.equals("skyblue")) {
+            graphic.setColor(new Color(135, 206, 235));
+	}
+	else if(colorString.equals("grey")) {
+            graphic.setColor(new Color(128, 128, 128));
+	}
+	else if(colorString.equals("darkgrey")){
+	    graphic.setColor(new Color(64, 64, 64));
         }
         else if(colorString.equals("magenta")) {
             graphic.setColor(Color.magenta);
