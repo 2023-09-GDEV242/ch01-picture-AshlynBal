@@ -3,8 +3,8 @@ import java.awt.*;
 /**
  * A person that can be manipulated and that draws itself on a canvas.
  * 
- * @author  Michael Kšlling and David J. Barnes
- * @version 2016.02.29
+ * @author  Michael KÃ¶lling, David J. Barnes, and Ashlyn Balicki
+ * @version 2023.09.10
  */
 
 public class Person
@@ -29,6 +29,20 @@ public class Person
         isVisible = false;
     }
 
+    /**
+     * xPosition setter
+     */
+    public void setXPosition(int xPosition) {
+        this.xPosition = xPosition;
+    }
+    
+    /**
+     * yPosition setter
+     */
+    public void setYPosition(int yPosition) {
+        this.yPosition = yPosition;
+    }
+    
     /**
      * Make this person visible. If it was already visible, do nothing.
      */
